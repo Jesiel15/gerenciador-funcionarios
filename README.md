@@ -1,4 +1,4 @@
-# Desafio ACT Digital
+# Desafio Técnico
 
 Este projeto é um sistema de gerenciamento de funcionários desenvolvido como parte de um desafio técnico para entrevista. A aplicação possui um
 foco em frontend Angular, foi usado backend em NODE com uma API REST completa, autenticação JWT, testes unitários, Dockers e containers.
@@ -37,13 +37,13 @@ Para configurar o ambiente de desenvolvimento local, siga os passos abaixo:
    - Primeiro, clone o repositório para sua máquina local.
 
    ```bash
-   git clone https://github.com/Jesiel15/act-gerenciador-funcionarios
+   git clone https://github.com/Jesiel15/gerenciador-funcionarios
    ```
 
    - Segundo, abra o projeto pelo terminal.
 
    ```bash
-   cd act-gerenciador-funcionarios
+   cd gerenciador-funcionarios
    ```
 
    - Terceiro, rode o comando para instalar as dependências.
@@ -110,7 +110,7 @@ Este projeto pode ser executado em containers utilizando Docker, com a aplicaç�
 - Execute o comando abaixo para criar a imagem do container. Caso queira apenas rodar a imagem hospeda no **[Docker Hub](https://hub.docker.com)**, pule esse comando:
 
   ```bash
-  docker build -t fariajesiel/act-gerenciador .
+  docker build -t fariajesiel/gerenciador .
   ```
 
 ### 🔸 Executar o container
@@ -118,8 +118,8 @@ Este projeto pode ser executado em containers utilizando Docker, com a aplicaç�
 - Depois de construir a imagem, execute o container com o seguinte comando. Se não existir uma imagem local, vai trazer o **[Repositório](https://hub.docker.com/repository/docker/fariajesiel/act-gerenciador/general)** no Docker Hub:
 
   ```bash
-  docker pull fariajesiel/act-gerenciador
-  docker run -dti -p 4200:4200 fariajesiel/act-gerenciador
+  docker pull fariajesiel/gerenciador
+  docker run -dti -p 4200:4200 fariajesiel/gerenciador
   ```
 
   > A aplicação estará disponível em: **http://localhost:4200**
@@ -176,7 +176,7 @@ Consulte o arquivo [LICENSE.md](./LICENSE.md) para mais detalhes (licença origi
 ## 🎁 Expressões de gratidão
 
 - Esse projeto foi um desafio proposto a uma vaga de emprego frontend senior 📢;
-- Agradeço a ACT Digital pela oportunidade;
+- Agradeço a pela oportunidade;
 
 ---
 
